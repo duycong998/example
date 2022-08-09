@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gif.GifandAudioActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <ImageView
+            android:id="@+id/Img1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:text="1" />
+
+        <ImageView
+            android:id="@+id/Img2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:text="2" />
+
+        <ImageView
+            android:text="3"
+            android:id="@+id/Img3"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill" />
+
+        <ImageView
+            android:text="4"
+            android:id="@+id/Img4"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill" />
+
+        <ImageView
+            android:text="5"
+            android:id="@+id/Img5"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill" />
+
+        <ImageView
+            android:text="6"
+            android:id="@+id/Img6"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill" />
+
+        <ImageView
+            android:text="7"
+            android:id="@+id/Img7"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill" />
+
+        <ImageView
+            android:text="8"
+            android:id="@+id/Img8"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill" />
+
+        <ImageView
+            android:text="9"
+            android:id="@+id/Img9"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill" />
+    </GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
