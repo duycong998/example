@@ -28,9 +28,15 @@ class LoggerActivity : AppCompatActivity() {
 
         Timber.d("####")
         Log.d("####", "CCC")
+        Timber.plant(LocalLog(this))
+        Timber.d("####")
+        Timber.e("####")
+        Timber.i("####")
+        Timber.e("####2222222222222222")
+        Timber.i("####2222222222")
 
-        val directory = File(Environment.getExternalStorageDirectory(), "congdeptrai" )
-            Log.d("####", directory.path)
+//        val directory = File(Environment.getExternalStorageDirectory(), "congdeptrai" )
+//            Log.d("####", directory.path)
     }
 
     override fun onResume() {

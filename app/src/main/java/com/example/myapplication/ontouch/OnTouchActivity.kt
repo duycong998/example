@@ -102,6 +102,7 @@ class OnTouchActivity : AppCompatActivity() {
         val windowAttributes = window?.attributes
         windowAttributes?.gravity = Gravity.CENTER
         window?.attributes = windowAttributes
+        dialog!!.setOnCancelListener {  }
         dialog!!.show()
     }
 

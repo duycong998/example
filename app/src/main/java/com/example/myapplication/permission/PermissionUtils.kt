@@ -23,6 +23,10 @@ import androidx.core.content.ContextCompat
           return (context?.let {
               ContextCompat.checkSelfPermission(
                   it,
+                  Manifest.permission.READ_EXTERNAL_STORAGE
+              )
+              ContextCompat.checkSelfPermission(
+                  it,
                   Manifest.permission.WRITE_EXTERNAL_STORAGE
               )
           }
